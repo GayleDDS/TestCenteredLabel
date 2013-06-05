@@ -23,6 +23,9 @@
 		C3D78893175E947A0009FDD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D7886E175E947A0009FDD0 /* Foundation.framework */; };
 		C3D7889B175E947A0009FDD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3D78899175E947A0009FDD0 /* InfoPlist.strings */; };
 		C3D7889E175E947B0009FDD0 /* TestCenteredLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D7889D175E947B0009FDD0 /* TestCenteredLabelTests.m */; };
+		C3D788B1175E97DA0009FDD0 /* 258-checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D788AF175E97DA0009FDD0 /* 258-checkmark.png */; };
+		C3D788B2175E97DA0009FDD0 /* 258-checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D788B0175E97DA0009FDD0 /* 258-checkmark@2x.png */; };
+		C3D788B5175E9ADD0009FDD0 /* DDSEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D788B4175E9ADD0009FDD0 /* DDSEditViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,10 @@
 		C3D7889A175E947A0009FDD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C3D7889C175E947A0009FDD0 /* TestCenteredLabelTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCenteredLabelTests.h; sourceTree = "<group>"; };
 		C3D7889D175E947B0009FDD0 /* TestCenteredLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCenteredLabelTests.m; sourceTree = "<group>"; };
+		C3D788AF175E97DA0009FDD0 /* 258-checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "258-checkmark.png"; sourceTree = "<group>"; };
+		C3D788B0175E97DA0009FDD0 /* 258-checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "258-checkmark@2x.png"; sourceTree = "<group>"; };
+		C3D788B3175E9ADD0009FDD0 /* DDSEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSEditViewController.h; sourceTree = "<group>"; };
+		C3D788B4175E9ADD0009FDD0 /* DDSEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSEditViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +129,10 @@
 				C3D78884175E947A0009FDD0 /* MainStoryboard.storyboard */,
 				C3D78887175E947A0009FDD0 /* DDSViewController.h */,
 				C3D78888175E947A0009FDD0 /* DDSViewController.m */,
+				C3D788B3175E9ADD0009FDD0 /* DDSEditViewController.h */,
+				C3D788B4175E9ADD0009FDD0 /* DDSEditViewController.m */,
+				C3D788AF175E97DA0009FDD0 /* 258-checkmark.png */,
+				C3D788B0175E97DA0009FDD0 /* 258-checkmark@2x.png */,
 				C3D78873175E947A0009FDD0 /* Supporting Files */,
 			);
 			path = TestCenteredLabel;
@@ -237,6 +248,8 @@
 				C3D78881175E947A0009FDD0 /* Default@2x.png in Resources */,
 				C3D78883175E947A0009FDD0 /* Default-568h@2x.png in Resources */,
 				C3D78886175E947A0009FDD0 /* MainStoryboard.storyboard in Resources */,
+				C3D788B1175E97DA0009FDD0 /* 258-checkmark.png in Resources */,
+				C3D788B2175E97DA0009FDD0 /* 258-checkmark@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +287,7 @@
 				C3D78879175E947A0009FDD0 /* main.m in Sources */,
 				C3D7887D175E947A0009FDD0 /* DDSAppDelegate.m in Sources */,
 				C3D78889175E947A0009FDD0 /* DDSViewController.m in Sources */,
+				C3D788B5175E9ADD0009FDD0 /* DDSEditViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +399,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestCenteredLabel/TestCenteredLabel-Prefix.pch";
 				INFOPLIST_FILE = "TestCenteredLabel/TestCenteredLabel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -396,6 +411,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestCenteredLabel/TestCenteredLabel-Prefix.pch";
 				INFOPLIST_FILE = "TestCenteredLabel/TestCenteredLabel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
